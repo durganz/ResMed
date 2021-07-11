@@ -37,6 +37,13 @@ docker run -p 8080:8080 -dit rockpaperscissors:latest
 
 This application uses in memory database **H2** to store the game results.
 
-**How to test services**
+## How to test services
+
 Access end point http://localhost:8080/rps/{playername}/{shape} as HTTP get method.
 Provide Player name and shape in the URL. Shape can be "R", "P" or "S".
+
+User Name and Password to access the service is:
+```
+UserName : user
+Password: password
+```
